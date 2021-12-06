@@ -1,6 +1,6 @@
 import Data.Char ()
 import System.IO (isEOF)
-import Text.Regex.TDFA
+import Text.Regex.TDFA ( (=~) )
 import Text.Regex.TDFA.Text ()
 
 main :: IO ()
