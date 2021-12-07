@@ -70,3 +70,15 @@ executable s2b
                     , regex-tdfa
     hs-source-dirs:   app
     default-language: Haskell2010
+
+executable s3a
+    main-is:          s3a.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    base ^>=4.14.3.0
+    hs-source-dirs:   app
+    default-language: Haskell2010
